@@ -20,9 +20,9 @@
 
 AbstractSequentialList是AbstractList类的子类，实现了根据下标来访问元素的一些方法，主要是通过listIterator遍历获取特定元素。
 
-List接口代表的是有序结合，与Set相反，List的元素是按照移动的顺序进行排列。
+List接口代表的是有序集合，与Set相反，List的元素是按照移动的顺序进行排列。
 
-Cloneable接口代表类会重新父类Object的clone()方法，支持对实例对象的clone操作。
+Cloneable接口代表类会重写父类Object的clone()方法，支持对实例对象的clone操作。
 
 java.io.Serializable接口代表类支持序列化。
 
